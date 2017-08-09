@@ -1,0 +1,13 @@
+{
+  "name": "tinect/extend-plugin-manager",
+  "type": "shopware-plugin",
+  "keywords": ["PluginManager", "shopware"],
+  "description": "Shopware ExtendPluginManager",
+  "license": "MIT",
+  "extra": {
+    "installer-name": "tinectExtendPluginManager"
+  },
+  "require": {
+    "composer/installers": "^1.0"
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">tinectExtendPluginManager</label>
+    <label lang="en">tinectExtendPluginManager</label>
+
+    <version>1.0.1</version>
+    <copyright>(c) by tinect</copyright>
+    <license>MIT</license>
+    <link>https://gitlab.com/skoenig/tinectExtendPluginManager</link>
+    <author>tinect</author>
+    <compatibility minVersion="5.2.0" />
+	
+	<description><![CDATA[
+        Zeigt einen Button im Plugin-Manager zum Besuch des Plugins im SW-Stores an       
+        ]]>
+    </description>
+   
+   
+    <changelog version="1.0.1">
+        <changes lang="de">Removed stupid things</changes>
+        <changes lang="en">Removed stupid things</changes>
+    </changelog>
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung</changes>
+        <changes lang="en">First release</changes>
+    </changelog>
+
+</plugin>
