@@ -1,18 +1,13 @@
 {
-  "name": "tinect/extend-plugin-manager",
+  "name": "frosh/extended-plugin-manager",
   "keywords": ["shopware", "backend", "pluginmanager"],
   "description": "Extends the Plugin Manager",
   "license": "MIT",
   "type": "shopware-plugin",
-  "authors": [
-    {
-      "name": "tinect",
-      "homepage": "https://github.com/tinect",
-      "role": "Developer"
-    }
-  ],
+  "license": "MIT",
+  "type": "shopware-plugin",
   "extra": {
-    "installer-name": "tinectExtendPluginManager"
+    "installer-name": "FroshExtendedPluginManager"
   },
   "require": {
     "composer/installers": "~1.0"

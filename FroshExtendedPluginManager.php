@@ -1,10 +1,10 @@
 <?php
 
-namespace tinectExtendPluginManager;
+namespace FroshExtendedPluginManager;
 
 use Shopware\Components\Plugin;
 
-class tinectExtendPluginManager extends Plugin
+class FroshExtendedPluginManager extends Plugin
 {
 
     public static function getSubscribedEvents()

@@ -2,22 +2,30 @@
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
 
-    <label lang="de">tinectExtendPluginManager</label>
-    <label lang="en">tinectExtendPluginManager</label>
+    <label lang="de">Erweiteter Plugin Manager</label>
+    <label lang="en">Extended Plugin Manager</label>
 
-    <version>1.0.1</version>
-    <copyright>(c) by tinect</copyright>
+    <version>1.0.2</version>
+    <copyright>Friends of Shopware</copyright>
     <license>MIT</license>
-    <link>https://gitlab.com/skoenig/tinectExtendPluginManager</link>
-    <author>tinect</author>
+    <link>https://github.com/FriendsOfShopware/FroshExtendedPluginManager</link>
+    <author>Friends of Shopware</author>
     <compatibility minVersion="5.2.0" />
 	
 	<description><![CDATA[
-        Zeigt einen Button im Plugin-Manager zum Besuch des Plugins im SW-Stores an       
+        Zeigt Buttons im Plugin-Manager zum Besuch des Plugins im SW-Stores an
         ]]>
     </description>
-   
-   
+    <description lang="en"><![CDATA[
+        Displays buttons to visit plugin in shopware-store
+        ]]>
+    </description>
+
+
+    <changelog version="1.0.2">
+        <changes lang="de">Willkommen bei Frosh</changes>
+        <changes lang="en">Welcome to Frosh</changes>
+    </changelog>
     <changelog version="1.0.1">
         <changes lang="de">Removed stupid things</changes>
         <changes lang="en">Removed stupid things</changes>
