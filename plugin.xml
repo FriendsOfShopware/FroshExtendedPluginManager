@@ -13,7 +13,7 @@
     <compatibility minVersion="5.2.0" />
 	
 	<description><![CDATA[
-        Zeigt Buttons im Plugin-Manager zum Besuch des Plugins im SW-Stores an
+        Zeigt Buttons im Plugin-Manager an, um ein Plugin direkt im Shopware Community Store aufzurufen
         ]]>
     </description>
     <description lang="en"><![CDATA[
