@@ -4,8 +4,6 @@
   "description": "Extends the Plugin Manager",
   "license": "MIT",
   "type": "shopware-plugin",
-  "license": "MIT",
-  "type": "shopware-plugin",
   "extra": {
     "installer-name": "FroshExtendedPluginManager"
   },
