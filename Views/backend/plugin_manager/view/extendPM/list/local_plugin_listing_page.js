@@ -9,7 +9,7 @@ Ext.define('Shopware.apps.PluginManager.view.list.LocalPluginListingPageOverride
 		
 		items.push({
             iconCls: 'sprite-store-open',
-            tooltip: '{s name="visit_store_page"}Visit Store{/s}',
+            tooltip: '{s name="visit_store_page" namespace="frosh_extended_plugin_manager"}Visit Store{/s}',
             handler: function(grid, rowIndex, colIndex, item, eOpts, record) {
 				window.open('https://store.shopware.com/search?sSearch=' + record.get('code'),'_swstore');
             },

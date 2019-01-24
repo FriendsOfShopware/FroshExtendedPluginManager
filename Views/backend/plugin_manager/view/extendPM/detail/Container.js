@@ -9,7 +9,7 @@ Ext.define('Shopware.apps.PluginManager.view.detail.ContainerOverride', {
         if (plugin.hasStoreData()) {
             me.metaDataContainer.add(
                 Ext.create('PluginManager.container.Container', {
-                    html: '{s name="visit_store_page"}Visit Store{/s}',
+                    html: '{s name="visit_store_page" namespace="frosh_extended_plugin_manager"}Visit Store{/s}',
                     cls: 'plugin-manager-action-button primary',
                     handler: function() {
                         window.open('https://store.shopware.com/search?sSearch=' + plugin.get('code'), '_swstore');
