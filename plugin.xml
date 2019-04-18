@@ -5,7 +5,7 @@
     <label lang="de">Erweiteter Plugin Manager</label>
     <label lang="en">Extended Plugin Manager</label>
 
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <copyright>Friends of Shopware</copyright>
     <license>MIT</license>
     <link>https://github.com/FriendsOfShopware/FroshExtendedPluginManager</link>
@@ -22,6 +22,16 @@
     </description>
 
 
+    <changelog version="1.0.3">
+        <changes lang="de"><![CDATA[
+        - Buttons nun auch übersetzt in sechs Sprachen
+        - englischer Store wird nun bei nicht-deutschsprachlern aufgerufen
+        ]]></changes>
+        <changes lang="en"><![CDATA[
+        - buttons are now translated into 6 languages
+        - english store will be visited, if you aren't german
+        ]]></changes>
+    </changelog>
     <changelog version="1.0.2">
         <changes lang="de">Willkommen bei Frosh</changes>
         <changes lang="en">Welcome to Frosh</changes>
