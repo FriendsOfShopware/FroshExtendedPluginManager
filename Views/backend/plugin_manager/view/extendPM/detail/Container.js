@@ -12,7 +12,7 @@ Ext.define('Shopware.apps.PluginManager.view.detail.ContainerOverride', {
                     html: '{s name="visit_store_page" namespace="frosh_extended_plugin_manager"}Visit Store{/s}',
                     cls: 'plugin-manager-action-button primary',
                     handler: function() {
-                        window.open('https://store.shopware.com/search?sSearch=' + plugin.get('code'), '_swstore');
+                        window.open('https://store.shopware.com/' + (Ext.userLanguage && Ext.userLanguage.substring(0, 2)!=='de'?'en/':'') + 'search?sSearch=' + plugin.get('code'), '_swstore');
                     }
                 })
             );
